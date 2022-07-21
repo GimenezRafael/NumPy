@@ -1,0 +1,20 @@
+NumPy
+#é a base da biblioteca do Pandas
+#vamos usar array, que sao muito mais performaticos do que as listas
+#além de permitir simplificar a escrita, torna o seu código mais performático e mais rápido!
+A importância do NumPy
+# Vamos supor que temos a venda e comissão (em percentual) de 5 vendedores e queremos saber qual vai ser o salário de cada um deles
+
+# Importar o numpy
+import numpy as np
+
+# Venda e comissão
+venda_valor = [150000,230000,82000,143000,184000]
+comissao = [5,8,8,5,12]
+
+# Precisamos transformar uma lista em um array:
+venda_valor = np.array(venda_valor)
+comissao = np.array(comissao)
+
+# Agora vamos conseguir fazer sendo um array
+venda_valor*(comissao/100)
