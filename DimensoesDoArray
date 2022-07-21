@@ -1,0 +1,22 @@
+# mostra as dimensoes do array
+venda_valor.shape
+
+# todos os dados dentro de um array vao ser do mesmo tipo
+#ou seja, neste array os meus valores sao inteiros
+venda_valor.dtype
+
+#array de tipo inteiro
+tipos_dados = np.array([1,2,3,4,5])
+print(tipos_dados)
+tipos_dados.dtype
+
+#array de tipo float
+tipos_dados = np.array([1,2,3,4,5.0])
+print(tipos_dados)
+tipos_dados.dtype
+
+#array de tipo string
+#esse <U11 chama-se unicode
+tipos_dados = np.array([1,2,3,'4',5])
+print(tipos_dados)
+tipos_dados.dtype
