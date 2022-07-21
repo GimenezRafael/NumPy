@@ -1,0 +1,21 @@
+O array de uma dimensão é o que chamamos de vetor e o de duas dimensões de matriz
+
+#dados_venda recebe esses valores como array
+#nesse no caso é uma MATRIZ (podemos ver pois temos dois [])
+dados_venda = np.array([[150000,230000,82000,143000,184000],[5,8,8,5,12]])
+print(dados_venda)
+
+#saber quantos linhas e colunas temos
+#nesse caso temos 2 linhas e 5 colunas
+dados_venda.shape
+
+#qual é i tipo da nossa array
+#nesse caso toda a nossa matriz vai ter o mesmo tipo (que é inteiro)
+dados_venda.dtype
+
+#temos um array tipo texto e outra tipo int, porem ele vai converter os dois arrays para texto, por seguranca dos dados
+dados_venda = np.array([['Lucas','Bia','Jean','Gabi','Pedro'],[150000,230000,82000,143000,184000]])
+print(dados_venda)
+
+#é possivel vermos que toda a nossa matriz foi convertida para texto
+dados_venda.dtype
